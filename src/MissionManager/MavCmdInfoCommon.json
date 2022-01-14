@@ -205,6 +205,21 @@
         { "id": 24, "rawName": "MAV_CMD_NAV_TAKEOFF_LOCAL", "friendlyName": "Takeoff local" },
         { "id": 25, "rawName": "MAV_CMD_NAV_FOLLOW", "friendlyName": "Nav follow" },
         {
+            "id":                   26,
+            "rawName":              "MAV_CMD_NAV_TIME_WAYPOINT",
+            "friendlyName":         "Time Waypoint",
+            "description":          "Travel to a position in 3D space at a specified time.",
+            "specifiesCoordinate":  true,
+            "friendlyEdit":         true,
+            "category":             "Basic",
+            "param4": {
+                "label":            "Time",
+                "units":            "s",
+                "default":          0,
+                "decimalPlaces":    2
+            }
+        },
+        {
             "id":                       30,
             "rawName":                  "MAV_CMD_NAV_CONTINUE_AND_CHANGE_ALT",
             "friendlyName":             "Change Altitude",
