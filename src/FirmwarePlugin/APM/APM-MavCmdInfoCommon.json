@@ -17,11 +17,6 @@
             "specifiesAltitudeOnly":    true
         },
         {
-            "id":           26,
-            "comment":      "MAV_CMD_NAV_TIME_WAYPOINT",
-            "paramRemove":  "1,2,3"
-        },
-        {
             "id":                       84,
             "comment":                  "MAV_CMD_NAV_VTOL_TAKEOFF",
             "description":              "Takeoff to specified altitude.",
